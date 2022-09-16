@@ -18,19 +18,19 @@ def new_session(model_name: str) -> BaseSession:
 
     if model_name == "u2netp":
         md5 = "8e83ca70e441ab06c318d82300c84806"
-        url = "https://drive.google.com/uc?id=1tNuFmLv0TSNDjYIkjEdeH1IWKQdUA4HR"
+        url = "https://drive.google.com/uc?id=1ns7aHJLCMgagk8ey_Bbw_kdDOBVXN0Sq"
         session_class = SimpleSession
     elif model_name == "u2net":
         md5 = "60024c5c889badc19c04ad937298a77b"
-        url = "https://drive.google.com/uc?id=1tCU5MM1LhRgGou5OpmpjBQbSrYIUoYab"
+        url = "https://drive.google.com/uc?id=1Sm9LRv7dr9i7pH-W_jZi89J9rWulbJST"
         session_class = SimpleSession
     elif model_name == "u2net_human_seg":
         md5 = "c09ddc2e0104f800e3e1bb4652583d1f"
-        url = "https://drive.google.com/uc?id=1ZfqwVxu-1XWC1xU1GHIP-FM_Knd_AX5j"
+        url = "https://drive.google.com/uc?id=1qMVsFNT5zNQg6cYvj4U-JYPvmsS_NMLi"
         session_class = SimpleSession
     elif model_name == "u2net_cloth_seg":
         md5 = "2434d1f3cb744e0e49386c906e5a08bb"
-        url = "https://drive.google.com/uc?id=15rKbQSXQzrKCQurUjZFg8HqzZad8bcyz"
+        url = "https://drive.google.com/uc?id=1VU6xoq-NL08zDiXk6YMs5qCB7XGKpBZ5"
         session_class = ClothSession
     else:
         assert AssertionError(
